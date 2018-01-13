@@ -1,0 +1,115 @@
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+header h1 {
+	text-align: center;
+}
+nav {
+	width: 95%;
+}
+nav ul {
+	width: 95%;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 125%;
+}
+nav ul li a {
+	text-decoration: none;
+	color: blue;
+}
+fieldset {
+	width: 400px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+legend {
+	text-align: center;
+}
+fieldset label {
+	display: inline-block;
+	width: 100px;
+	margin-left: 50px;
+	margin-bottom: 5px;
+}
+.longlabel {
+	width: 150px !important;
+}
+input[type=submit] {
+	margin: auto;
+    display: block;
+    margin-top: 13px;
+    width: 100px;
+    height: 35px;
+    font-size: 120%;
+}
+.longbutton {
+	width: 200px !important;
+}
+input[type=button] {
+	margin: auto;
+    display: block;
+    margin-top: 3px;
+}
+fieldset span {
+	text-align: center;
+    display: block;
+}
+.inlinespan {
+	display: inline !important;
+}
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+caption {
+	font-size: 150%;
+}
+td, th {
+	border: 1px solid black;
+	padding: 5px;
+	font-size: 125%;	
+}
+table a {
+	color: blue;
+	text-decoration: none;
+}
+.subMenu {
+	display: none;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
+.subMenu li {
+    display: block;
+    margin: 0px;
+    font-size: 100%;
+    padding-top: 5px;
+}
+li:hover .subMenu {
+	display: block;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.aboutImage img {
+	width: 200px;
+    height: 200px;
+    margin-left: 40%;
+}
+.aboutDesc {
+	width: 50%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 3%;
+}

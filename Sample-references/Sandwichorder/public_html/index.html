@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Sandwich Order</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+     <form method="POST" action="http://ec2-52-90-51-31.compute-1.amazonaws.com/post.php">
+    <div>
+        <table>
+            <tr>
+                <td><img src="images/sacredheart.jpg" alt="SHU Sandwich Shop" title="SHU Sandwich Shop" height="150" width="150"> </td>
+                <td><label><b>User Name  :</b></label><input type="text" name="username"><br/><br/>
+                <label><b>Password:</b></label><input type="password" name="password" value="password" style="margin-left:9px"><br/><br/>
+                <img src="images/login.png" height="25" width="100" style="margin-left:50px"><br></td>
+            </tr>
+        </table>
+        <div >
+        <fieldset style="width:650px;background-color:  honeydew">
+         <legend> Sandwich Order Form : </legend>
+         Select bread type :   <input type="radio" name="bread" value="wheat"> Wheat<input type="radio" name="bread" value="white" > White
+           <input type="radio" name="bread" value="roll" > Roll <input type="radio" name="bread" value="wrap" > Wrap
+            <img src="images/bread.jpg" width="100" height="70">
+         <br/><br/> Select cheese type : 
+            <select name="cheese">
+                <option value="american">American </option>
+                <option value="swissh">Swissh</option>
+                <option value="cheddar">Cheddar</option>
+             </select>
+          <img src="images/sandwich.jpg" width="150" height="70">
+        <br/><br/> Choose meat combinations :
+                <select name="meat" multiple><option value="ham">Ham </option><option value="turkey">Turkey</option><option value="salami">Ssalami</option><option value="peperoni">Peperoni</option>
+             </select>              
+         <br/><br/> Choose toppings from below : <br/>
+          <input type="checkbox" name="meat" value="lettuce"><i> Lettuce </i><input type="checkbox" name="meat" value="tomato"><i> Tomato </i>
+           <input type="checkbox" name="meat" value="onion"><i> Onion </i> <input type="checkbox" name="meat" value="pickles"><i> Pickles </i>
+            <input type="checkbox" name="meat" value="olives"><i> Olives </i> <input type="checkbox" name="meat" value="mushrooms"><i> Mushrooms </i>
+             <input type="checkbox" name="meat" value="greenpeppers"><i> GreenPeppers </i> <br><br>
+        </fieldset> <br/>
+        </div>
+        <fieldset style="width:650px;background-color: oldlace">
+            <legend>Customer Details</legend>
+             First Name : <input type="text" name="firstName" ><br /><br />Last Name : <input type="text" name="lastName" > <br><br />
+            Delivery Instructions : <textarea name="deliverydetails"  rows="3" cols="70">Enter your delivery details</textarea> 
+         </fieldset>
+      <br/>
+      <div style="margin-left:150px"><input type="image" src="images/placeorder.png" width="80" height="35"/>   <div>
+      </div>
+     </form>
+</body>
+</html>
