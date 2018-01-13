@@ -1,0 +1,212 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+header {
+	background-color: #f75927;
+	padding: 20px 0px;
+	color: white;
+}
+header h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+nav {
+	width: 90%;
+	margin-top: 10px;
+	margin-left: 2%;
+        margin-bottom: 2%;
+}
+nav ul {
+	width: 95%;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 125%;
+	color: black;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+fieldset {
+	width: 450px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+legend {
+	text-align: center;
+}
+fieldset label {
+	display: inline-block;
+	width: 150px;
+	margin-left: 50px;
+	margin-bottom: 5px;
+}
+.longlabel {
+	width: 150px !important;
+}
+input[type=submit] {
+	margin: auto;
+    display: block;
+    margin-top: 13px;
+    width: 100px;
+    height: 35px;
+    font-size: 120%;
+}
+.longbutton {
+	width: 200px !important;
+}
+input[type=button] {
+	margin: auto;
+    display: block;
+    margin-top: 3px;
+}
+fieldset span {
+	text-align: center;
+    display: block;
+}
+.inlinespan {
+	display: inline !important;
+}
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+caption {
+	font-size: 150%;
+}
+td, th {
+	border: 1px solid black;
+	padding: 5px;
+	font-size: 125%;	
+}
+table a {
+	color: black;
+	text-decoration: none;
+}
+.noborder td, .noborder th {
+	border: none !important;
+}
+.subMenu {
+	display: none;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
+.subMenu li {
+    display: block;
+    margin: 0px;
+    font-size: 100%;
+    padding-top: 5px;
+}
+li:hover .subMenu {
+	display: block;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.aboutImage img {
+	width: 200px;
+    height: 200px;
+    margin-left: 40%;
+    vertical-align: top;
+}
+.largeImage {
+	width: 200px !important;
+    height: 200px !important;
+    
+}
+.aboutDesc {
+	width: 50%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 3%;
+}
+.largeText {
+	font-size: 125%;
+}
+
+.redirectButtons {
+	padding: 20px;
+}
+.redirectButtons button {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+}
+.leftRedirector {
+	float: left;
+}
+.rightRedirector {
+	float: right;
+}
+.sideText {
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 165px;
+	border: 2px solid #ececec;
+	padding: 10px;
+	font-size: 125%;
+}
+
+
+.imageAndText {
+	width: 65%;
+	margin: auto;
+}
+.imageAndText div {
+	display: inline-block;
+}
+.imageHolder {
+	margin-right: 2%;
+	vertical-align:top;
+}
+.textHolder {
+	width: 60%;
+}
+.textHolder p {
+	text-align: justify;
+}
+.pageNumbers {
+	text-align: center;
+	font-size: 130%;
+}
+.pageIndex {
+	display: inline-block;
+	margin-right: 5px;
+}
+.dropDownIndicator {
+	display: inline-block;
+	width: 12px;
+}
+dl {
+	width: 400px;
+	margin: auto;
+}
+dt {
+	font-weight: bold;
+	font-size: 110%;
+}
+dd {
+	
+}

@@ -1,0 +1,51 @@
+id,name,category,days,statuteNumber
+1,"Entry Upon land",civil,5475,52-575
+2,"Actions for Accounts",civil,2190,52-576A
+3,"Actions for Contracts",civil,2190,52-576B
+4,"Action founded upon a tort",civil,1095,52-577
+5,"change of grade of highway",civil,2190,52-578
+6,"Suit on a probate bond",civil,2190,52-579
+7,"Settlement ofpartnership",civil,2190,52-580
+8,"Settlement of joint accounts",civil,2190,52-580A
+9,"Action in Oral Contract",civil,1095,52-581
+10,"Petition for new trail",civil,1095,52-582
+11,"Action against Sheriff",civil,730,52-583
+12,"Action against State Marshall",civil,730,52-583A
+13,"Action against Neglect",civil,730,52-583B
+14,"Action for injury person",civil,730,52-584
+15,"negligence misconduct",civil,730,52-584A
+16,"Action for Malpractice",civil,730,52-584B
+17,"Suit for forfeture on penal statute",civil,365,52-585
+18,"Scire facias against garnishee",civil,365,52-586
+19,"Suit on bond recognizance",civil,365,52-587
+20,"Suit on note obtained by fraud",civil,365,52-588
+21,"Action of forcible entry and detainer",civil,180,52-589
+22,"Defendent absence from state ",civil,2555,52-590
+23,"Accidental failure of suit ",civil,180,52-592
+24,"Action against wrong defendant",civil,365,52-593
+25,"Limit for executor",civil,365,52-594
+26,Libel/Slander,civil,730,52-597
+27,"Injury to person",civil,730,52-577A
+28,Fraud,civil,1095,52-577B
+29,"Injury to personal property",civil,1095,52-577C
+30,"Professional Malpractice",civil,730,52-584C
+31,Trespass,civil,1095,52-577D
+32,"Collection of debton Account",civil,2190,52-576C
+33,Judgements,civil,7300,52-598
+71,Imprisonment,criminal,1825,54-193
+72,"Sexual abuse",criminal,10950,54-193A
+73,"Exploitationar assault",criminal,10950,54-193B
+74,"DNA sexual assault offenses",criminal,7300,54-193C
+75,"DNA identity committed offenses",criminal,1825,54-193D
+76,Misdemeanors,criminal,365,54-193E
+77,"Sale/Delivery of electronic  ",criminal,540,53-344
+78,"Vapor product to minors",criminal,540,53-344A
+79,"Unlawful debt",criminal,1825,53-394
+80,Harrassment/Stalking,criminal,365,53-181
+81,"Shoplifting/Retail Theft",criminal,390,53-191
+82,"Threatening hazardious substance ",criminal,1460,53-61
+83,"To commit some crime",criminal,1460,53-62
+84,"Weapon charges",criminal,1095,53-206
+85,"Reckless driving",criminal,365,14-222
+86,"Bad checks/Credit card fraud",criminal,1825,53-128
+87,"Disorderly conduct",criminal,730,53-182
